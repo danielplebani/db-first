@@ -6,16 +6,28 @@ car
 
 id: PRIMARYKEY, INT, UNIQUE, AUTOINCREMENT, NOTNULL
 
+
 Brand: VARCHAR(20), NOTNULL
+
 Model: VARCHAR(50), NOTNULL
+
 Autonomy: FLOAT(4,2) NOTNULL
+
 Diet: VARCHAR(10), NOTNULL
 
+
 Status: VARCHAR(10), NULL
+
 Horse_power: SMALLINT, NULL
+
 Km_done: FLOAT(6, 1), NULL
+
 Price: DECIMAL(5, 3), NULL
+
 Year: YEAR, NULL
+
 Color: VARCHAR(20), NULL
+
 Description: TEXT, NULL
+
 Engine_model: VARCHAR(10), NULL
